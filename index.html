@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="NBA Shot Evolution" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content="NBA Shot Evolution"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="M126: Data Visualization 2020 - Final Project" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="images/shotchart.jpg" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="index.html" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>NBA Shot Charts</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/magnific-popup.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <a class="navbar-brand logo-text page-scroll" href="index.html">
+            NBA Shot Evolution
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#intro">INTRO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#dashboard">DASHBOARD</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#presentation">PRESENTATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#credits">CREDITS</a>
+                </li>
+            </ul>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navbar -->
+
+
+    <!-- Header -->
+    <div id= "header" class="header">
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="assets/header.mov" type="video/mp4">
+        </video> <!-- end of video -->
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1>NBA SHOT EVOLUTION</h1>
+                    <p-large>M126: Data Visualization 2020 - Final Project</p>
+                    <div class="button-container">
+                        <a class="btn-solid-reg page-scroll" href="#intro">EXPLORE</a>
+                    </div> <!-- end of button-container -->
+                </div> <!-- end of w-100 -->
+            </div> <!-- end of d-flex -->
+        </div> <!-- end of container -->
+    </div> <!-- end of header -->
+    <!-- end of header -->
+
+
+    <!-- Intro -->
+    <div id="intro" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">INTRO</div>
+                    <h2>Aims of the project</h2>
+                    <p-large>In this project we aim to examine the evolution of shooting in the NBA League by visualizing shots made during the last two decades. The application allows users to filter by season starting from 2000-01, favorite team or even a specific player.</p-large>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of intro -->
+
+
+    <!-- Intro details -->
+    <div class="cards-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Card -->
+                    <div class="card">
+                        <span class="fa-stack">
+                            <span class="hexagon"></span>
+                            <i class="fas fa-bullseye fa-stack-1x"></i>
+                        </span>
+                        <div class="card-body">
+                            <h4 class="card-title">Target audience</h4>
+                            <p>The target audience of this project includes NBA and basketball viewers, as well as sports fans in general. However, we aim to also attract data enthusiasts, as we believe this specific case study could clearly demonstrate the amazing benefits of data visualization.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <span class="fa-stack">
+                            <span class="hexagon"></span>
+                            <i class="fas fa-rocket fa-stack-1x"></i>
+                        </span>
+                        <div class="card-body">
+                            <h4 class="card-title">Significance of the work</h4>
+                            <p>In the past few years, we have seen various statistics showing the NBA audience all the new 3-point records and how differently the 3-point line is used now. Last season, the Houston Rockets became the first team in NBA history to attempt more 3s than 2s over a full schedule. More than a third of all shot attempts over the past two seasons have been 3s. Before this decade, no individual team had taken such a high percentage of its shots from range in a single season. We believe that visualizing this exact pattern will provide a clear view of the NBA 3-point shot being a game changer.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <span class="fa-stack">
+                            <span class="hexagon"></span>
+                            <i class="fas fa-database fa-stack-1x"></i>
+                        </span>
+                        <div class="card-body">
+                            <h4 class="card-title">Dataset</h4>
+                            <p>The dataset was exported from the publicly available data found in the <a href="https://stats.nba.com/"><strong>official NBA stats website</strong></a>.</p>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-1 -->
+    <!-- end of intro details -->
+
+
+    <!-- Dashboard Shot Chart-->
+    <div id="dashboard" class="cards-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">DASHBOARD</div>
+                    <h2>NBA Shot Charts</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class='tableauPlaceholder' id='viz1593604226773' style='position: relative; border: solid #13BF98;'>
+                        <noscript>
+                            <a href='#'>
+                                <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;nb&#47;nba_shots_2000_2020&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+                            </a>
+                        </noscript>
+                        <object class='tableauViz'  style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                            <param name='embed_code_version' value='3' /> 
+                            <param name='site_root' value='' />
+                            <param name='name' value='nba_shots_2000_2020&#47;Dashboard1' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='no' />
+                            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;nb&#47;nba_shots_2000_2020&#47;Dashboard1&#47;1.png' /> 
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='no' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en-GB' />
+                            <param name='filter' value='publish=yes' />
+                        </object>
+                    </div>                
+                    <script type='text/javascript'>
+                        var divElement = document.getElementById('viz1593604226773');
+                        var vizElement = divElement.getElementsByTagName('object')[0]; 
+                        vizElement.style.width='100%';vizElement.style.height='827px';
+                        var scriptElement = document.createElement('script');                    
+                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                    </script>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-2 -->
+    <!-- end of dashboard -->
+
+    <!-- Dashboard Line Chart-->
+    <div class="basic-2" style="padding-bottom: 6.625rem">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2 style="margin-bottom: 3.25rem">The NBA's 3-Point Revolution</h2>
+                        </div> <!-- end of col -->
+                    </div> <!-- end of row -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class='tableauPlaceholder' id='viz1593730439716' style='position: relative'>
+                                <noscript>
+                                    <a href='#'>
+                                        <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;nb&#47;nba_shots_2000_2020&#47;Dashboard2&#47;1_rss.png' style='border: none' />
+                                    </a>
+                                </noscript>
+                                <object class='tableauViz'  style='display:none;'>
+                                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                                    <param name='embed_code_version' value='3' /> 
+                                    <param name='site_root' value='' />
+                                    <param name='name' value='nba_shots_2000_2020&#47;Dashboard2' />
+                                    <param name='tabs' value='no' />
+                                    <param name='toolbar' value='no' />
+                                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;nb&#47;nba_shots_2000_2020&#47;Dashboard2&#47;1.png' /> 
+                                    <param name='animate_transition' value='yes' />
+                                    <param name='display_static_image' value='yes' />
+                                    <param name='display_spinner' value='yes' />
+                                    <param name='display_overlay' value='yes' />
+                                    <param name='display_count' value='yes' />
+                                    <param name='language' value='en-GB' />
+                                </object></div>                
+                                <script type='text/javascript'>
+                                    var divElement = document.getElementById('viz1593730439716');                    
+                                    var vizElement = divElement.getElementsByTagName('object')[0];                    
+                                    vizElement.style.width='100%';vizElement.style.height='512px';
+                                    var scriptElement = document.createElement('script');                    
+                                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                                </script>
+                        </div> <!-- end of col -->
+                    </div> <!-- end of row -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of dashboard line chart-->
+
+    <!-- Presentation -->
+    <div id="presentation" class="form-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">PRESENTATION</div>
+                    <h2>A few words</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <video style="object-fit: fill; width: 100%; height: auto" controls>
+                        <source src="assets/presentation.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-1 -->
+    <!-- end of presentation -->
+
+
+    <!-- Credits -->
+    <div id="credits" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">CREDITS</div>
+                    <h2>Our Team</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="card">
+                            <img class="card-image" src="./images/paris.jpg" alt="alternative">
+                            <div class="card-body">
+                                <div class="testimonial-text">Software engineer with more than 3 years of experience designing, implementing, testing and delivering complex back-end and web applications. Big data enthusiast currently studying for a Master's in Data and Information Management.</div>
+                            </div>
+                            <p class="job-title">Paris Laftsis</p>
+                        </div>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="https://www.linkedin.com/in/paris-laftsis/">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-linkedin fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="card">
+                            <img class="card-image" src="./images/dimitris.jpg" alt="alternative">
+                            <div class="card-body">
+                                <div class="testimonial-text">Recently completed Bachelor’s in Physics and currently studying for a Master’s in Information and Communication Technologies. Interested in web development, data analysis and machine learning. NBA fan and occasional hoops shooter.</div>
+                            </div>
+                            <p class="job-title">Dimitris Varsamis</p>
+                        </div>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="https://www.linkedin.com/in/dimitris-varsamis-a7a753194/">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-linkedin fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                    <!-- Team Member -->
+                    <div class="team-member">
+                        <div class="card">
+                            <img class="card-image" src="./images/vayia.jpg" alt="alternative">
+                            <div class="card-body">
+                                <div class="testimonial-text">Physics graduate student with passion about new technologies. Currently studying for a Master’s in Information and Communication Technologies. Interests include machine learning and real-world problem solving. Loves dancing.</div>
+                            </div>
+                            <p class="job-title">Vayia Vlachomitrou</p>
+                        </div>
+                        <span class="social-icons">
+                            <span class="fa-stack">
+                                <a href="https://www.linkedin.com/in/vayia-vlachomitrou-595585171/">
+                                    <span class="hexagon"></span>
+                                    <i class="fab fa-linkedin fa-stack-1x"></i>
+                                </a>
+                            </span>
+                        </span>
+                    </div> <!-- end of team-member -->
+                    <!-- end of team member -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of credits -->
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-container about">
+                        <h4>About this project</h4>
+                        <p class="white">This project was created for the postgraduate course M126: Data Visualization, at the Department of Informatics and Telecommunications within the University of Athens.</p>
+                        <p class="white">Special thanks to our professor <a href="https://www.makebelieve.gr/mroussou/">Maria Rousou</a> and the course staff.</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Links</h4>
+                        <ul class="list-unstyled li-space-lg white">
+                            <li>
+                                <a class="white" href="https://eclass.uoa.gr/courses/DI453/">M126: Data Visualization</a>
+                            </li>
+                            <li>
+                                <a class="white" href="https://www.di.uoa.gr/">di.uoa.gr</a>
+                            </li>
+                            <li>
+                                <a class="white" href="https://www.uoa.gr/">uoa.gr</a>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Tools</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li>
+                                <a class="white" href="https://www.python.org/">Python 3.7</a>
+                            </li>
+                            <li>
+                                <a class="white" href="https://www.tableau.com/">Tableu Desktop 2020.2</a>
+                            </li>
+                            <li>
+                               <a class="white" href="https://getbootstrap.com/">Bootstrap v4.5</a>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-md-2">
+                    <div class="text-container">
+                        <h4>Extra Credits</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li>
+                                Inspiration <a class="white" href="https://public.tableau.com/profile/daniel.teo#!/">Daniel Teo</a>
+                            </li>
+                            <li>
+                                Template <a class="white" href="https://inovatik.com/">Inovatik</a>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                        <span class="cc-license-icons">
+                            <span id="cc-logo" class="icon"><img alt="cc logo" src="images/cc_icon_white_x2.png" style="width: 25px; height: auto;"></span>
+                            <span id="cc-attribution" class="icon"><img src="images/attribution_icon_white_x2.png" style="width: 25px; height: auto;"></span>
+                            <span id="cc-icon-nc" class="icon"><img src="images/nc_white_x2.png" style="width: 25px; height: auto;"></span>
+                            <span id="cc-icon-sa" class="icon"><img src="images/sa_white_x2.png" style="width: 25px; height: auto;"></span>
+                        </span>
+                    </a>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+    <script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+</html>
