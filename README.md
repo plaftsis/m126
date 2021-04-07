@@ -1,6 +1,6 @@
 # NBA Shot Evolution
 Data Visualization Project M126
-https://in7ictus.github.io/m126/
+https://plaftsis.github.io/m126/
 
 ## Team Members
 - Paris Laftsis
