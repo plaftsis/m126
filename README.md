@@ -1,11 +1,6 @@
 # NBA Shot Evolution
 Data Visualization Project M126
-https://plaftsis.github.io/m126/
-
-## Team Members
-- Paris Laftsis
-- Dimitris Varsamis
-- Vayia Vlachomitrou
+https://plaftsis.github.io/nba-shot-evolution/
 
 ## Aims of the project
 In this project we aim to examine the evolution of shooting in the NBA League by visualizing shots made during the last two decades through shot charts. The application allows users to filter by season starting from 2000-01, favorite team or even a specific player.
@@ -18,3 +13,6 @@ In the past few years, we have seen various statistics showing the NBA audience 
 
 ## Dataset
 The dataset was exported from the publicly available data found in the <a href="https://stats.nba.com/"><strong>official NBA stats website</strong>
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
